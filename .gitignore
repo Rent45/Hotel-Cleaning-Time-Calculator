@@ -1,0 +1,30 @@
+# Build / C/C++
+/build/
+/cmake-build-debug/
+/CMakeFiles/
+/CMakeCache.txt
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.pdb
+*.log
+*.ninja_log
+
+# CLion
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
