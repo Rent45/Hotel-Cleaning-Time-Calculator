@@ -1,30 +1,55 @@
-# Build / C/C++
-/build/
-/cmake-build-debug/
-/CMakeFiles/
-/CMakeCache.txt
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.egg
+.env
+.env.*
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Byte-compiled / logs
+*.log
+
+# tests / coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Mypy, pip, tox
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# C++ / build
+cmake-build-debug/
+build/
 *.o
 *.obj
 *.exe
-*.dll
-*.lib
-*.a
-*.so
-*.pdb
-*.log
-*.ninja_log
+libalglib.a
+Final.exe
 
 # CLion
 .idea/
 *.iml
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-
-# OS
-.DS_Store
-Thumbs.db
